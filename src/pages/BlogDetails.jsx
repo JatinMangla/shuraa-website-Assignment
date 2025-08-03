@@ -194,7 +194,7 @@ const BlogDetails = () => {
               </h1>
 
               {/* Meta Information */}
-              <div className="flex flex-wrap items-center gap-6 text-gray-600 mb-8">
+              <div className="flex flex-wrap items-center gap-6 text-gray-600 ">
                 <div className="flex items-center">
                   <Calendar size={16} className="mr-2" />
                   <span>{post.date}</span>
