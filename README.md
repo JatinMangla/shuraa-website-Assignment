@@ -236,8 +236,8 @@ This project is proprietary and confidential. All rights reserved by Shuraa Tax 
 
 ## 🚗 Live Demo & Repository
 
-- **Deployed site:** [Add your live deployment link here]
-- **GitHub repository:** [Add your repository link here]
+- **Deployed site:** https://shuraa-website-assignment.vercel.app/
+- **GitHub repository:** https://github.com/JatinMangla/shuraa-website-Assignment.git
 
 ## ⚠️ Important Notes
 
