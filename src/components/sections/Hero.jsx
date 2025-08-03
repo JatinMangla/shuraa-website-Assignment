@@ -20,7 +20,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden">
+    <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden py-3">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-30"
@@ -69,7 +69,7 @@ const Hero = () => {
                 <div className="flex items-center justify-center mb-2">
                   <Award className="text-accent-400 mr-2" size={24} />
                 </div>
-                <h3 className="text-2xl font-bold">UAE Registered</h3>
+                <h3 className="text-2xl font-bold text-wrap">UAE</h3>
                 <p className="text-blue-100 text-sm">Tax Agents</p>
               </div>
               <div className="text-center">

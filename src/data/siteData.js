@@ -187,7 +187,7 @@ export const siteData = {
       date: "July 30, 2025",
       author: "Shuraa Tax Consultant",
       slug: "crypto-taxes-dubai-digital-assets-tax-free",
-      image: "/blog/crypto-taxes-dubai.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/uae-corporate-tax-penalty-and-fines.jpg",
       category: "Corporate Tax"
     },
     {
@@ -197,7 +197,7 @@ export const siteData = {
       date: "July 16, 2025",
       author: "Shuraa Tax Consultant",
       slug: "understanding-property-tax-dubai-investors-guide",
-      image: "/blog/property-tax-dubai.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/uae-expands-corporate-tax-exemption-foreign-owned-entities.jpg",
       category: "Dubai Tax System"
     },
     {
@@ -207,7 +207,7 @@ export const siteData = {
       date: "July 28, 2025",
       author: "Shuraa Tax Consultant",
       slug: "qualifying-free-zone-person-uae-corporate-tax-law",
-      image: "/blog/free-zone-corporate-tax.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/07/qualifying-free-zone-person-in-uae.jpg",
       category: "Corporate Tax"
     },
     {
@@ -217,7 +217,7 @@ export const siteData = {
       date: "July 17, 2025",
       author: "Shuraa Tax Consultant",
       slug: "small-business-tax-preparation-guide-2025",
-      image: "/blog/small-business-tax.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/07/small-business-tax-preparation.jpg",
       category: "Corporate Tax"
     },
     {
@@ -227,7 +227,7 @@ export const siteData = {
       date: "June 27, 2025",
       author: "Shuraa Tax Consultant",
       slug: "vat-services-provided-outside-uae",
-      image: "/blog/vat-services-outside-uae.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/vat-on-services-provided-outside-uae.jpg",
       category: "VAT"
     },
     {
@@ -237,7 +237,7 @@ export const siteData = {
       date: "July 25, 2025",
       author: "Shuruu Tax Consultant",
       slug: "how-to-obtain-tin-trn-number-uae",
-      image: "/blog/tin-trn-number-uae.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/trn-number-uae.jpg",
       category: "Corporate Tax"
     },
     {
@@ -247,7 +247,7 @@ export const siteData = {
       date: "June 11, 2025",
       author: "Shuraa Tax Consultant",
       slug: "corporate-tax-fines-penalties-uae",
-      image: "/blog/corporate-tax-fines.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/uae-corporate-tax-penalty-and-fines.jpg",
       category: "Corporate Tax"
     },
     {
@@ -257,7 +257,7 @@ export const siteData = {
       date: "June 5, 2025",
       author: "Shuraa Tax Consultant",
       slug: "uae-expands-corporate-tax-exemption-foreign-owned-entities",
-      image: "/blog/corporate-tax-exemption.jpg",
+      image: "https://serverx10.shuraatech.com/tax_blog/wp-content/uploads/2025/06/uae-expands-corporate-tax-exemption-foreign-owned-entities.jpg",
       category: "Corporate Tax"
     }
   ],

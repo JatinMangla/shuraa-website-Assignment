@@ -124,7 +124,7 @@ export const leadership = [
         id: 1,
         name: "Saeed Khalifa Al Fuqaei",
         position: "Founder & Company Owner",
-        image: "/api/placeholder/300/300",
+        image: "https://media.licdn.com/dms/image/v2/C4E03AQEndY4fBRMA7A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1615185860753?e=1756944000&v=beta&t=63zD_25ynDXDxD6QIKrZFuDAMF14kLebI05JokysOMQ",
         bio: "Emirati entrepreneur who founded Shuraa in 2001, transforming it from a small typing centre in old Dubai into a leading business consultancy firm. His vision has been instrumental in empowering entrepreneurs and multinational corporations across the UAE.",
         experience: "20+ years",
         specialties: ["Business Setup", "Strategic Planning", "Entrepreneurship", "UAE Market Development"],

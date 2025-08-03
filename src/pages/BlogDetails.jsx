@@ -228,9 +228,11 @@ const BlogDetails = () => {
                 <Card className="p-8 md:p-12">
                   {/* Featured Image Placeholder */}
                   <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 rounded-xl mb-8 flex items-center justify-center">
-                    <div className="text-primary-600 opacity-50">
-                      <Calendar size={64} />
-                    </div>
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
                   </div>
 
                   {/* Article Content */}

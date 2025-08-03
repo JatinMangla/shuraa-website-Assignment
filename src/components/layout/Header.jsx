@@ -67,20 +67,24 @@ const Header = () => {
       </div>
 
       {/* Main Header */}
-      <header className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-white'
-      }`}>
+      <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg' : 'bg-white'
+        }`}>
         <div className="container-custom">
           <div className="flex items-center justify-between py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
+               <img
+                src='./shuraa_tax_logo.webp'
+                alt={''}
+                className=" w-45 h-20 object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              {/* <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">S</span>
               </div>
               <div>
                 <h1 className="text-xl font-bold text-gray-900">{siteData.company.name}</h1>
                 <p className="text-xs text-gray-600">Accounting & Auditing</p>
-              </div>
+              </div> */}
             </Link>
 
             {/* Desktop Navigation */}
@@ -89,11 +93,10 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className={`text-sm font-medium transition-colors duration-200 hover:text-primary-600 ${
-                    isActiveLink(item.href)
+                  className={`text-sm font-medium transition-colors duration-200 hover:text-primary-600 ${isActiveLink(item.href)
                       ? 'text-primary-600 border-b-2 border-primary-600 pb-1'
                       : 'text-gray-700'
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>
@@ -138,11 +141,10 @@ const Header = () => {
                       key={item.name}
                       to={item.href}
                       onClick={closeMenu}
-                      className={`text-base font-medium py-2 transition-colors duration-200 hover:text-primary-600 ${
-                        isActiveLink(item.href)
+                      className={`text-base font-medium py-2 transition-colors duration-200 hover:text-primary-600 ${isActiveLink(item.href)
                           ? 'text-primary-600 border-l-4 border-primary-600 pl-4'
                           : 'text-gray-700'
-                      }`}
+                        }`}
                     >
                       {item.name}
                     </Link>

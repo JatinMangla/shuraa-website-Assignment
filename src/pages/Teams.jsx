@@ -1,4 +1,3 @@
-import React from 'react'
 import { Helmet } from 'react-helmet-async'
 import { motion } from 'framer-motion'
 import {
@@ -10,27 +9,9 @@ import {
 import Card from '../components/ui/Card'
 import Button from '../components/ui/Button'
 import { leadership, departments, values } from '../data/commonData'
+import { containerVariants, itemVariants } from '../utils/commonFunctions'
 
 const Teams = () => {
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  }
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.5 }
-    }
-  }
 
   return (
     <>
@@ -179,9 +160,19 @@ const Teams = () => {
                     </div>
 
                     <div className={`bg-gradient-to-br from-primary-100 to-primary-200 p-8 lg:p-12 flex items-center justify-center ${index % 2 === 1 ? 'lg:col-start-1' : ''}`}>
-                      <div className="w-64 h-64 rounded-full bg-white shadow-lg flex items-center justify-center">
-                        <User className="text-primary-600" size={80} />
-                      </div>
+                      {
+                        index == 0 ? (
+                          <img
+                            src={leader?.image}
+                            alt={leader.name}
+                            className="w-full rounded transition-transform duration-300 group-hover:scale-105"
+                          />
+                        ) : (
+                          <div className="w-64 h-64 rounded-full bg-white shadow-lg flex items-center justify-center">
+                            <User className="text-primary-600" size={80} />
+                          </div>
+                        )
+                      }
                     </div>
                   </div>
                 </Card>

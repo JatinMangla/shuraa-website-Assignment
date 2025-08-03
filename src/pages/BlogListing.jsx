@@ -136,9 +136,11 @@ const BlogListing = () => {
                     {/* Post Image */}
                     <div className="relative mb-6 overflow-hidden rounded-lg">
                       <div className="aspect-video bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-                        <div className="text-primary-600 opacity-50">
-                          <Calendar size={48} />
-                        </div>
+                        <img
+                          src={post.image}
+                          alt={post.title}
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
                       </div>
                       <div className="absolute top-4 left-4">
                         <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-primary-600 text-white">
