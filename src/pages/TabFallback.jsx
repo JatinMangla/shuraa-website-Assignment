@@ -25,7 +25,12 @@ const TabFallback = ({ tabName = 'Page' }) => {
 
             {/* ShuraaTax Logo placeholder */}
             <div className="absolute inset-4 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">S</span>
+              {/* <span className="text-white font-bold text-lg">S</span> */}
+               <img
+                src='./shuraatax_icon.webp'
+                className=" object-cover transition-transform group-hover:scale-105"
+                alt="Loading..."
+              />
             </div>
           </div>
         </motion.div>
