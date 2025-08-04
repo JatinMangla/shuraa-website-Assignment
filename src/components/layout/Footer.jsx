@@ -22,13 +22,19 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
+              {/* <div className="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-xl">S</span>
               </div>
               <div>
                 <h3 className="text-xl font-bold">{siteData.company.name}</h3>
                 <p className="text-sm text-gray-300">Accounting & Auditing</p>
-              </div>
+              </div> */}
+
+               <img
+                src='./shuraa_tax_logo.webp'
+                alt={'loading...'}
+                className=" w-45 h-20 object-cover transition-transform duration-300 group-hover:scale-105 bg-transparent"
+              />
             </Link>
 
             <p className="text-gray-300 mb-6 leading-relaxed">

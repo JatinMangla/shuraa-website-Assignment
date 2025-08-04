@@ -20,7 +20,7 @@ const Hero = () => {
   }
 
   return (
-    <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden py-3">
+    <section className="relative min-h-screen flex items-center gradient-bg overflow-hidden py-5">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-30"
@@ -96,7 +96,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative">
+            <div className="relative mb-16">
               {/* Placeholder for hero image */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="space-y-6">
